@@ -1,5 +1,6 @@
-# Serenity-1.12-Vanilla
-Serenity
+Cryolysis (Mage)
+Necrosis (Warlord)
+Priest (Serenity)
 -------------------------------
 
 - Based on Necrosis LdC by Lomig and Nyx (http://necrosis.larmes-cenarius.net)
@@ -9,7 +10,7 @@ Serenity
 - Contact : darklyte@gmail.com
 - Send me in-game mail!  Nethaera on Aegwynn, Horde side.
 - Guild: <Working as Intended>
-- Updated 08/24/2006
+- Updated 07/31/2006
 
 -------------------------------
 0 - Installation
@@ -19,19 +20,15 @@ Extract the entire folder to your Wow\Interface\addons directory.  If you are in
 please do not delete the directory before hand.  Patch and Beta files only contain the necessary changes.
 
 -------------------------------
-1 - What is Serenity?
+1 - What is Cryolysis?
 -------------------------------
 
-se·ren·i·ty (se-ren'i-te) n.
-The state or quality of being...
-1. Unaffected by disturbance; calm and unruffled. 
-2. Unclouded; fair: "serene skies and a bright blue sea."
+cry·ol·y·sis (kri-ol'i-sis) n. Destruction by cold.
 
 
-
-Serenity is a mod to help your priest managing their buffs, and spells, reagents, cooldowns and durations.  
+Serenity is a mod to help priest managing their heals, conjured items, buffs, and spells.  
 It provides a variety of buttons for common spells in an easy-to-use, small, convinient package.  
-The idea and code was adapted from Necrosis LdC to make it usable by priests.
+The idea and code was adapted from Necrosis LdC to make it usable by mages.
 
 -------------------------------
 1b- What isn't Serenity?
@@ -46,7 +43,7 @@ screen space.  It will not make coffee or walk your dog.
 
 Because it is wonderful and very intuitive! The interface is small and movable, opening up a lot more screen and bar 
 space for whatever you want.  You won't need to clutter your screen with uncommon spells and you will
-never have to search through your spellbook or inventory for priestly things. You feel be a more efficient priest 
+never have to search through your spellbook or inventory for magely things. You feel be a more efficient mage 
 and have more fun thanks to this handy addon.
 
 -------------------------------
@@ -61,62 +58,67 @@ How does it work ? Well...
 
 
 Serenity will provide you a sphere and 9 buttons. The sphere will display relevant information and the outer 
-buttons will provide quick access to all your priestly desires.
+buttons will provide quick access to all your magely desires.
 
 More details?!  Okay, here we go!
 
 [b]Main Sphere[/b]
 [li]Right click to open the configuration menu. 
 [li]Left-click to activate one of the various options. 
-[li]=> Drink your best available water
-[li]=> Use Mana Potion
-[li]=> Use Healing Potion
-[li]=> Cast Fade
-[li]=> Cast Pyschic Scream
-[li]=> Want something else?  Let me know!
+[li]=> Eat and Drink (default)
+[li]=> Use Evocation
+[li]=> Cast Polymorph
+[li]=> Use Mana Gem
 
 [b]Main Sphere Display[/b] - You can set the main sphere to show any of these options
 [li]Nothing!
-[li]Available Drinks
-[li]Mana and Healing Potion Quantities
+[li]Food and Drink Quantities
+[li]Drink and Food Quantities (reverse order)
 [li]Current Health (Numeric)
 [li]Current Health (Percent)
 [li]Current Mana (Numeric)
 [li]Current Mana (Percent)
-[li]Potion Cooldown
+[li]Mana Gem Cooldown
+[li]Evocation Cooldown
 
-[b]Outer Ring Display[/b]
-[li]Nothing
-[li]Mana Percentage
-[li]Hit Points Percantage
-[li]Potion Cooldown
+[b]Food Button[/b]
+[li]Left-Click to eat.
+[li]Right-Click to conjure food.
+[li]=>If you are targetting a player, it will conjure food that they can eat.
+[li]Middle-click or Alt-click to trade one stack of food to your target. 
+[li]=> Do it again to add another stack.
+[li]Food count can be displayed on button, or turned off.
 
-[b]Drink Button[/b]
+[b]Water Button[/b]
 [li]Left-Click to drink.
-[li]Right-Click to eat food (Available soon!).
-[li]Middle-click to use bandages (Available soon!).
+[li]Right-Click to conjure water.
+[li]=>If you are targetting a player, it will conjure water that they can drink.
+[li]Middle-click or Alt-click to trade one stack of water to your target. 
+[li]=> Do it again to add another stack.
+[li]Drink count can be displayed on button, or turned off.
 
-[b]Potion Button[/b]
-[li]Left-Click to drink mana potion.
-[li]Right-Click to drink healing potion.
-[li]Automatically switches to PvP Potions when on a battleground.
-
-[b]Decursive Button[/b]
-[li]Left-click to cast Dispel Magic offensively or decursively.
-[li]Right-click to cast Abolish/Cure Disease decursively.
+[b]Mana Gem Button[/b]
+[li]Left-click to use your mana gem 
+[li]=> Configurable to use highest or lowest rank mana gem first
+[li]Right-click to conjure the highest rank gem that you do not have
+[li]Will not allow you to use your mana gem if you have full MP
+[li]Mana Gem cooldown displayable on button
 	
+[b]Evocation Button[/b]
+[li]Click to use Evocation
+[li]Evocation cooldown displayable on button
 
-[b]Three "Anything" Buttons[/b]
-[li]Known as "left spell button", "middle spell button and "right spell button"
-[li]Configurable to cast any spell from the buff menu or spell menu
-[li]=>Left-click to cast primary spell (eg Power Word: Fortitude)
-[li]=>Right-click to cast alternate spell (eg Prayer of Fortitude)
+[b]Two "Anything" Buttons[/b]
+[li]Known as "left spell button" and "right spell button"
+[li]Configurable to cast any spell from the buff menu, as well as a few others
+[li]=>Left-click to cast primary spell (eg Ice Armor)
+[li]=>Right-click to cast alternate spell (eg Mage Armor)
 
-[b]Buff Menu Button[/b]
-[li]Click to show available buffs
+[b]Spell Menu Button[/b]
+[li]Click to show available spells
 [li]=> Left-click to the button cast primary spell, right-click to cast alternate
-[li]===> Includes Power Word: Fortitude (Prayer of Fortitude), Divine Spirit (Prayer of Spirit), Shadow Protection (Prayer of Shadow Protection)
-[li]===> Inner Fire, Racial Spells, Inner Focus, Power Infusion, Shadowform
+[li]===> Includes Ice Armor (Mage Armor), Arcane Intellect (Arcane Brilliance), Dampen Magic (Amplify Magic)
+[li]===> Fire Ward (Frost Ward), Detect Magic, Remove Lesser Curse, and Slow Fall
 [li]Right-click to recast the last spell called from this menu
 [li]Middle-click or Alt-click to keep the menu from automatically closing
 
@@ -124,13 +126,13 @@ More details?!  Okay, here we go!
 [li]Automatically detects your mount when enabled
 [li]Right-click to use hearthstone
 
-[b]Spell Menu Button[/b]
-[li]Click to show available spells
-[li]=> Spells Include: Fade, Lightwell, Resurrection, Pyschic Scream, Mind Control, Mind Sooth, Mind Vision, Shackle Undead
+[b]Portal Menu Button[/b]
+[li]Click to show available portal spells
+[li]=> Click the portal button to cast the appropriate message
 [li]Right-click to recast the last spell called from this menu
 [li]Middle-click or Alt-click to keep the menu from automatically closing
 
-[b]Spelltimer Button[/b] (defaults off)
+[b]Spelltimer Button[/b]
 [li]Spell cooldowns and durations will appear on the right of this button (configurable)
 [li]Right-click the button to use your hearthstone
 
@@ -138,16 +140,19 @@ More details?!  Okay, here we go!
 4 - More functionalities
 -------------------------------
 
-[li]You can put the Serenity Sphere wherever you want
-[li]You can put the Serenity Buttons wherever you want
+[li]You can put the Cryolysis Sphere wherever you want
+[li]You can put the Cryolysis Buttons wherever you want
 
+[li]You can have your food and drink automatically sorted into full stacks into the bag of your choice, saving space and keeping your inventory organized
+[li]Option available to destroy excess provisions that will not fit into the bag
 [li]Automatically restock your reagents to the amount of your chosing (with or without a confirmation)
 [li]Show various information on the outer ring of the main sphere, including health, mana, and cooldowns
+[li]Clicking the main sphere can eat and/or drink, depending on the health or mana percentage you specify
 
-[li]Advanced warning, letting you know when your shackles are about to break and telling you when it does break
-[li]Random chat messages available for shackle undead, resurrection, and mounting.  
-[li]=>Shackle message only shows when you are polymorphing a new target
-[li]=>All chat messages configurable to a short, raid-ready version using /serenity sm
+[li]Advanced warning, letting you know when polymorph is about to break and telling you when it does break
+[li]Random chat messages available for polymorph, portals, and mounting.  
+[li]=>Polymorph message only shows when you are polymorphing a new target
+[li]=>All chat messages configurable to a short, raid-ready version
 
 [li]Show or remove any of the visible buttons
 [li]Show or remove cooldowns or reagent counts from any button
@@ -165,10 +170,12 @@ More details?!  Okay, here we go!
 5 - Slash commands
 -------------------------------
 
-[li]/serenity -- open the configuration menu and display a list of slash commands
-[li]/serenity recall -- Center Serenity and all the buttons in the middle of the screen
-[li]/serenity sm -- Replace messages with a short raid-ready version
-[li]/serenity reset -- Restore default settings
+[li]/cryo -- open the configuration menu and display a list of slash commands
+[li]/cryo recall -- Center Cryolysis and all the buttons in the middle of the screen
+[li]/cryo sm -- Replace messages with a short raid-ready version
+[li]/cryo decurse -- cast Remove Lesser Curse using decursive feature
+[li]/cryo poly -- randomly cast between available polymorph spells
+[li]/cryo coldblock == Activate Iceblock or Cold snap as available
 
 -------------------------------
 6 - Help needed
@@ -186,12 +193,11 @@ Q: What is this Necrosis you keep mentioning?
 A: My main character is a warlock and as such, I wanted to be the best warlock
    I could.  I found Necrosis LdC and fell in love with it.  On a Patch day if
    Necrosis would break, I wouldn't be able to play my warlock.  When I made
-   My mage, I felt it could really benefit from a similar mod.  When I finished
-   Cryolysis, I decided priest needed it too!
+   My mage, I felt it could really benefit from a similar mod
 
 Q: So you stole the code made by Lomig and Nyx?!
 A: Yes and no.  I went through their code and changed a lot of things around so
-   It would work for mage.  I also added my own code to certain places like 
+   It would work for priest.  I also added my own code to certain places like 
    Mana gems, right-clicking buff menu, etc.  Before releasing, I asked permission
    and they said it would be fine, as long as I give them credit (which is well
    (deserved!)
@@ -199,15 +205,17 @@ A: Yes and no.  I went through their code and changed a lot of things around so
 Q: How often do you update?
 A: I am constantly tweeking things.  Whenever I am on, I am trying to make Serenity better.  I suggest adding Serenity to your favorites so you can easily watch for updates, becuase they come by quickly!
 
-Q: I'm not a mage or priest. can you make this for my class?
+Q: I'm not a mage, can you make this for my class?
 A: Changing Necrosis to Cryolysis actually took a lot more work than I expected.  I was motivated, however, since I was just starting out my mage and I wanted to feel as at home there as I did on my warlock.  As of right now, I have no plans to work on a version for another class.  If I were to make another one, it would have to be for a class I was playing.  Most likely, it would come for rogue or hunter, as rogue is my next favorite class and I do not have a hunter on this server.
 
 Q: Can I give you money?!
 A: Of course!  please send your paypal donations to darklyte@gmail.com!
+
+Q: Serenity... Is the name some kind of joke?
+A: Kinda!  I wanted a Necrosis-like name, and mages come to the warlock forum so they can cry, so...
 
 Q: Can I come talk to you on Aegwynn (Horde side)?
 A: I have many characters.  About 10 or so, and I change on a whim.  Your best bet is to ask someone in my guild, <Working as Intended>, where I am.
 
 Q: How else can I contact you?
 A: E-mail: darklyte@gmail.com, AIM: darklyte64.  I also check curse-gaming, ui.worldofwar.net, and the official warcraft forums many times a day.  I will usually answer your questions within 12 hours.  Less if I am awake!
-

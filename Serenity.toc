@@ -1,0 +1,19 @@
+## Interface: 11200
+## Title: |CFFFF00FFS|CFFFF50FFe|CFFFF99FFr|CFFFFC4FFe|CFFFFFFFFn|CFFFFC4FFi|CFFFF99FFit|CFFFF50FFy |CFF7FFF7F TurtleWOW|r
+## Notes: All-in-one |CFF9482C9Priest|r addon: spells, abilities management, and reagents with quick access to essential abilities, all designed to streamline the Priest experience.
+## Version: 1.8.1
+## Author: D.C.M-Gaming ⚪
+## OptionalDeps:
+## Dependencies:
+## DefaultState:
+## SavedVariables:
+## SavedVariablesPerCharacter: SerenityConfig
+SerenityGeneral.xml
+Serenity.xml
+SerenityTimer.xml
+SerenityInventoryMenu.xml
+SerenityMessageMenu.xml
+SerenityButtonMenu.xml
+SerenityTimerMenu.xml
+
+SerenityGraphOptionMenu.xml
